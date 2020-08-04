@@ -1,0 +1,103 @@
+.teacher-item {
+  background: var(--color-box-base);
+  border: 1px solid var(--color-line-in-white);
+  border-radius: 0.8rem;
+  margin-top: 2.4rem;
+  overflow: hidden;
+}
+.teacher-item .teacher-item__name {
+  padding: 3.2rem 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.teacher-item .data {
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  margin: 0 10px;
+}
+.teacher-item .teacher-item__name strong {
+  font: 700 2.4rem Archivo;
+  display: block;
+  color: var(--color-text-title);
+}
+.teacher-item .teacher-item__name span {
+  font-size: 1.6rem;
+  display: block;
+  margin-top: 0.4rem;
+}
+.teacher-item .teacher-item__description {
+  padding: 0 2rem;
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+}
+.teacher-item div img {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+}
+.teacher-item .teacher-item__description {
+  width: 100%;
+  display: block;
+  text-align: start;
+}
+.teacher-item footer {
+  padding: 3.2rem 2rem;
+  background: var(--color-box-footer);
+  border-top: 1px solid var(--color-line-in-white);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.teacher-item footer p strong {
+  display: block;
+  font-size: 1.6rem;
+  color: var(--color-primary);
+  margin-top: 5px;
+  font-family: Poppins;
+}
+
+.teacher-item .button {
+  padding: 2rem;
+  outline: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 0.5rem;
+  background: var(--color-secundary);
+  color: var(--color-button-text);
+  cursor: pointer;
+  font-family: Archivo;
+  transition: 0.2s;
+}
+
+.teacher-item .button img {
+  margin-right: 10px;
+}
+
+.teacher-item .button:hover {
+  background: var(--color-secundary-dark);
+}
+
+@media screen and (min-width: 700px) {
+  .teacher-item header,
+  .teacher-item footer {
+    padding: 3.2rem;
+  }
+  .teacher-item__description {
+    padding: 0 3.2rem !important;
+  }
+  .teacher-item footer p strong {
+    display: initial;
+    margin-left: 1.6rem;
+  }
+  .teacher-item .button {
+    width: 245px;
+    font-size: 1.6rem;
+    justify-content: center;
+  }
+}
