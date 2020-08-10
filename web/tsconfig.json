@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "es6",
     "lib": ["es5", "es6", "dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
@@ -15,9 +15,9 @@
     "noEmit": true,
     "jsx": "react",
     "removeComments": true,
-    "sourceMap": true
+    "sourceMap": true,
+    "noImplicitAny": false
   },
   "include": ["src"],
-  "exclude": ["./node_modules/**/*"]
-  // "files": ["./src/styled.d.ts"]
+  "exclude": ["./node_modules/**/*"],
 }

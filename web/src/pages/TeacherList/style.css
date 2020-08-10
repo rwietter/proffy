@@ -1,0 +1,50 @@
+#page-teacher-list {
+  width: 100%;
+  height: 100vh;
+}
+
+#search-teachers label {
+  color: var(--color-text-in-primary);
+}
+
+#page-teacher-list main {
+  margin: 3.2rem auto;
+  width: 90%;
+}
+
+@media screen and (min-width: 700px) {
+  #page-teacher-list {
+    min-width: 100vw;
+    width: 100vw;
+  }
+  #page-teacher-list main {
+    padding: 2rem 0;
+    max-width: 740px;
+    margin: 0 auto;
+  }
+  #search-teachers {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0 16px;
+    max-width: 740px;
+    position: absolute;
+    top: 30rem;
+  }
+  #page-teacher-list form button {
+    width: 100%;
+    height: 5.6rem;
+    margin-top: 2.2rem;
+    border-radius: 0.8rem;
+    background: var(--color-secundary);
+    color: var(--color-button-text);
+    outline: 0;
+    padding: 0 1.6rem;
+    font: 500 1.6rem Archivo;
+    cursor: pointer;
+    border: none;
+    transition: background 1s;
+  }
+  #page-teacher-list form button:hover {
+    background: var(--color-secundary-dark);
+  }
+}

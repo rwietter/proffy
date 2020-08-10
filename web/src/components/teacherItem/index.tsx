@@ -1,39 +1,64 @@
 import React from 'react';
+
 import whatsappImg from '../../assets/images/icons/whatsapp.svg';
+import api from '../../services/api';
 import './style.css';
-const TeacherList = () => {
+
+export interface ITeacher {
+  avatar: string;
+  bio: string;
+  cost: number;
+  id: number;
+  name: string;
+  subject: string;
+  user_id: number;
+  whatsapp: string;
+}
+interface TeacherItemProps {
+  teachers: ITeacher;
+}
+
+const TeacherItem: React.FC<TeacherItemProps> = ({
+  teachers,
+}: TeacherItemProps) => {
+  const createNewConnection = () => {
+    api.post('connections', {
+      user_id: teachers.id,
+    });
+  };
+
   return (
     <article className="teacher-item">
       <div className="teacher-item__name">
-        <img
-          src="https://avatars1.githubusercontent.com/u/46854467?s=400&u=c88239f08e319bdec81b7c517a634ed8a10830c2&v=4"
-          alt="person"
-        />
+        <img src={teachers.avatar} alt={teachers.avatar} />
         <div className="data">
-          <strong>Alberto</strong>
-          <span>Computer Science</span>
+          <strong>{teachers.name}</strong>
+          <span>{teachers.subject}</span>
         </div>
       </div>
 
       <div className="teacher-item__description">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium qui be</p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quam nemo ratione blanditiis minima voluptatum
-          natus molliti
-        </p>
+        <p>{teachers.bio}</p>
       </div>
 
       <footer>
         <p>
-          Preço/Hora<strong>R$ 90</strong>
+          Preço/Hora
+          <strong>
+            R$
+            {teachers.cost}
+          </strong>
         </p>
-        <button className="button" type="button">
+        <a
+          onClick={createNewConnection}
+          className="button"
+          href={`https://wa.me/${teachers.whatsapp}`}>
           <img src={whatsappImg} alt="entrar em contato por Whatsapp" />
           Entrar em contato
-        </button>
+        </a>
       </footer>
     </article>
   );
 };
 
-export default TeacherList;
+export default TeacherItem;
