@@ -18,14 +18,14 @@
     </h1>
     <p align="center"><br/><span>⚛️ 📄 🚀</span></p>
     <p align="center">Proffy is about connecting teachers and students</p>
-    <span align="center">
+    <section align="center">
       <a href="#objectives">Objectives</a>
       <a href="#roadmap">Roadmap</a>
       <a href="#technologies">Technologies</a>
       <a href="#contributing">Contributing</a>
       <a href="#license">License</a>
       <a href="#author">Author</a>
-    </span>
+    </section>
     <br/>
     <p align="center"> 
 	    🚧 Working... 🚧
