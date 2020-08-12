@@ -11,7 +11,6 @@
       <img src="https://img.shields.io/static/v1?label=&message=React-Native&color=8DD6F9&style=flat-square&logo=react"/>
       <img src="https://img.shields.io/static/v1?label=&message=Babel&color=FFA500&style=flat-square&logo=babel"/>
       <img src="https://img.shields.io/static/v1?label=&message=Expo&color=000020&style=flat-square&logo=expo"/>
-      <img src="https://img.shields.io/static/v1?label=&message=VScode&color=007ACC&style=flat-square&logo=visual studio code"/>
     </p>
     <h1 align="center">
       <a href="#"><img src="./web/src/assets/images/logo.svg" width="30%" /></a>
@@ -189,7 +188,7 @@
   </main>
 
 ---
-  <footer>
+  <footer align="center">
     <p align="center">
       <strong>Projeto desenvolvido durante a Next Level Week by RocketSeat</strong>
     </p>
