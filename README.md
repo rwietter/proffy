@@ -20,6 +20,8 @@
     <p align="center">Proffy is about connecting teachers and students</p>
     <p align="center">
       <a href="#objectives">Objectives</a>
+      <a href="#features">Features</a>
+      <a href="#preview">Preview</a>
       <a href="#roadmap">Roadmap</a>
       <a href="#technologies">Technologies</a>
       <a href="#contributing">Contributing</a>
@@ -59,7 +61,7 @@
     <br/><hr/><br/>
 
     <h3>Just a preview</h3>
-    <section align="center">
+    <section id="preview" align="center">
       <img alt="Next Level Week 2" title="#NextLevelWeek" src="./assets/proffy.png" />
     </section>
 
