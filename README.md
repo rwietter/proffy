@@ -179,19 +179,21 @@
 
     <br/><hr/><br/>
 
-    <header id="author" align="center">
+    <footer id="author" align="center">
       <p>Made by @rwietter</p>
       <a href="">Twitter</a>
       <span> | </span>
       <a href="">Telegram</a>
-    </header>
+    </footer>
   </main>
 
 ---
-  <p align="center">
-    <strong>Projeto desenvolvido durante a Next Level Week by RocketSeat</strong>
-  </p>
-  <p align="center">
-    <strong>Project developed for study purposes.</strong>
-  </p>
+  <footer align="center">
+    <p align="center">
+      <strong>Projeto desenvolvido durante a Next Level Week by RocketSeat</strong>
+    </p>
+    <p align="center">
+      <strong>Project developed for study purposes.</strong>
+    </p>
+  </footer>
 </body>
