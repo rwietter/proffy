@@ -21,12 +21,11 @@
     <p align="center">
       <a href="#objectives">Objectives</a>
       <a href="#features">Features</a>
-      <a href="#preview">Preview</a>
-      <a href="#roadmap">Roadmap</a>
-      <a href="#technologies">Technologies</a>
-      <a href="#contributing">Contributing</a>
-      <a href="#license">License</a>
-      <a href="#author">Author</a>
+      <a href="#just-a-preview">Preview</a>
+      <a href="#requirements">Requirements</a>
+      <a href="#-technologies">Technologies</a>
+      <a href="#-contributing">Contributing</a>
+      <a href="#-license">License</a>
     </p>
     <br/>
     <p align="center"> 
