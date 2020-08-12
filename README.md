@@ -1,4 +1,4 @@
-<body>
+<body background="#000">
   <!--
     personal badges => https://simpleicons.org/?q=react 
     badges => http://shields.io/
@@ -13,7 +13,7 @@
       <img src="https://img.shields.io/static/v1?label=&message=Expo&color=000020&style=flat-square&logo=expo"/>
     </p>
     <h1 align="center">
-      <a href="#"><img src="./web/src/assets/images/logo.svg" width="30%" /></a>
+      <a href="#"><img src="./assets/logo.png" width="30%" /></a>
     </h1>
     <p align="center"><span>⚛️ 📄 🚀</span></p>
     <p align="center">Proffy is about connecting teachers and students</p>
@@ -188,12 +188,10 @@
   </main>
 
 ---
-  <footer align="center">
-    <p align="center">
-      <strong>Projeto desenvolvido durante a Next Level Week by RocketSeat</strong>
-    </p>
-    <p align="center">
-      <strong>Project developed for study purposes.</strong>
-    </p>
-  </footer>
+  <p align="center">
+    <strong>Projeto desenvolvido durante a Next Level Week by RocketSeat</strong>
+  </p>
+  <p align="center">
+    <strong>Project developed for study purposes.</strong>
+  </p>
 </body>
