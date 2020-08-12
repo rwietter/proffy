@@ -12,22 +12,25 @@
       <img src="https://img.shields.io/static/v1?label=&message=Babel&color=FFA500&style=flat-square&logo=babel"/>
       <img src="https://img.shields.io/static/v1?label=&message=Expo&color=000020&style=flat-square&logo=expo"/>
     </p>
+    <br/>
     <h1 align="center">
       <a href="#"><img src="./assets/logo.png" width="30%" /></a>
     </h1>
-    <p align="center"><span>⚛️ 📄 🚀</span></p>
+    <p align="center"><br/><span>⚛️ 📄 🚀</span></p>
     <p align="center">Proffy is about connecting teachers and students</p>
-    <section align="center">
-      <a href="#objectives">Objectives</a> •
-      <a href="#roadmap">Roadmap</a> • 
-      <a href="#technologies">Technologies</a> • 
-      <a href="#contributing">Contributing</a> • 
-      <a href="#license">License</a> • 
+    <span align="center">
+      <a href="#objectives">Objectives</a>
+      <a href="#roadmap">Roadmap</a>
+      <a href="#technologies">Technologies</a>
+      <a href="#contributing">Contributing</a>
+      <a href="#license">License</a>
       <a href="#author">Author</a>
-    </section>
+    </span>
+    <br/>
     <p align="center"> 
 	    🚧 Working... 🚧
     </p>
+    <br/>
         <p align="center">
       <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/rwietter/e-coleta" />
       <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/rwietter/e-coleta" />
@@ -179,12 +182,11 @@
 
     <br/><hr/><br/>
 
-    <footer id="author" align="center">
-      <p>Made by @rwietter</p>
-      <a href="">Twitter</a>
-      <span> | </span>
-      <a href="">Telegram</a>
-    </footer>
+    <header id="author" align="center">
+      <p align="center">Made by @rwietter</p>
+      <p align="center"><a href="">Twitter</a></p>
+      <p  align="center"><a href="">Telegram</a></p>
+    </header>
   </main>
 
 ---
