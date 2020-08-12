@@ -40,8 +40,7 @@ export const Landing: FC = () => {
           </Link>
         </div>
         <span className="total-connections">
-          Total de
-          {totalConnections} conexões já realizadas
+          Total de {totalConnections} conexões já realizadas
           <img loading="lazy" src={purpleHeart} alt="ícone do coração roxo" />
         </span>
       </div>
