@@ -1,0 +1,181 @@
+_type: export
+__export_format: 4
+__export_date: 2020-08-16T13:43:04.056Z
+__export_source: insomnia.desktop.app:v2020.3.3
+resources:
+  - _id: req_2d0a49f160c84936b2337920c7875df4
+    authentication: {}
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"user_id": 1
+        }
+    created: 1596677661502
+    description: ""
+    headers:
+      - id: pair_db91cc4b64924caeaa354b80a179c260
+        name: Content-Type
+        value: application/json
+    isPrivate: false
+    metaSortKey: -1593842090520
+    method: POST
+    modified: 1597585250480
+    name: create connections
+    parameters: []
+    parentId: fld_c2aa53d41f434459a725ad151a2d1178
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingFollowRedirects: global
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: http://localhost:3333/connections
+    _type: request
+  - _id: fld_c2aa53d41f434459a725ad151a2d1178
+    created: 1597585245784
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1597585245784
+    modified: 1597585245784
+    name: post
+    parentId: wrk_a06dd66f6784402f9d98a2e302c328dc
+    _type: request_group
+  - _id: wrk_a06dd66f6784402f9d98a2e302c328dc
+    created: 1596548527634
+    description: ""
+    modified: 1596548527634
+    name: Proffy
+    parentId: null
+    scope: null
+    _type: workspace
+  - _id: req_f92f3ab0a4084730861f4d013f38aa27
+    authentication: {}
+    body:
+      mimeType: application/json
+      text: >-
+        {
+        	"name": "Maurício Witter",
+        	"avatar": "https://avatars1.githubusercontent.com/u/46854467?s=460&u=c88239f08e319bdec81b7c517a634ed8a10830c2&v=4",
+        	"whatsapp": "5554996571059",
+        	"bio": "Professor de ciência da computação.",
+        	"subject": "Matemática",
+        	"cost": 80,
+        	"schedule": [
+        		{ "week_day": 1, "from": "08:00" ,"to": "12:00" },
+        		{ "week_day": 3, "from": "09:00" ,"to": "11:00" },
+        		{ "week_day": 4, "from": "14:00" ,"to": "16:30" }
+        	]
+        }
+    created: 1596548750813
+    description: ""
+    headers:
+      - id: pair_db91cc4b64924caeaa354b80a179c260
+        name: Content-Type
+        value: application/json
+    isPrivate: false
+    metaSortKey: -1593842090470
+    method: POST
+    modified: 1597585248549
+    name: create class
+    parameters: []
+    parentId: fld_c2aa53d41f434459a725ad151a2d1178
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingFollowRedirects: global
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: http://localhost:3333/classes
+    _type: request
+  - _id: req_143d017d965741e086ad939f1333f24a
+    authentication: {}
+    body: {}
+    created: 1596548543264
+    description: ""
+    headers: []
+    isPrivate: false
+    metaSortKey: -1597326050265.5
+    method: GET
+    modified: 1597585273366
+    name: classes
+    parameters:
+      - description: ""
+        id: pair_0de762f29123430691c41b898a5e24d2
+        name: week_day
+        value: "1"
+      - description: ""
+        id: pair_06dcc2cf63ae4b089469154fc07f8e3e
+        name: subject
+        value: Matemática
+      - description: ""
+        id: pair_00e80ed9c3a94df8abc3e574630f4915
+        name: time
+        value: 11:00
+    parentId: fld_332c98d23f2d47da8ee1b4ac2801f6c7
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingFollowRedirects: global
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: http://localhost:3333/classes
+    _type: request
+  - _id: fld_332c98d23f2d47da8ee1b4ac2801f6c7
+    created: 1597585219199
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1597585219199
+    modified: 1597585219199
+    name: get
+    parentId: wrk_a06dd66f6784402f9d98a2e302c328dc
+    _type: request_group
+  - _id: req_8cbc261af9de4d5d8cf86b5d64911bd7
+    authentication: {}
+    body: {}
+    created: 1596681266488
+    description: ""
+    headers: []
+    isPrivate: false
+    metaSortKey: -1597326050215.5
+    method: GET
+    modified: 1597585282930
+    name: class counter
+    parameters: []
+    parentId: fld_332c98d23f2d47da8ee1b4ac2801f6c7
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingFollowRedirects: global
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: http://localhost:3333/connections
+    _type: request
+  - _id: env_af58506f8e6e82c2e03363cfb6e74040028296ec
+    color: null
+    created: 1596548527909
+    data: {}
+    dataPropertyOrder: null
+    isPrivate: false
+    metaSortKey: 1596548527909
+    modified: 1596548527909
+    name: Base Environment
+    parentId: wrk_a06dd66f6784402f9d98a2e302c328dc
+    _type: environment
+  - _id: jar_af58506f8e6e82c2e03363cfb6e74040028296ec
+    cookies: []
+    created: 1596548527943
+    modified: 1596548527943
+    name: Default Jar
+    parentId: wrk_a06dd66f6784402f9d98a2e302c328dc
+    _type: cookie_jar
+  - _id: spc_925f04103c1e4b07bd4f5e513932a5dd
+    contentType: yaml
+    contents: ""
+    created: 1596548527647
+    fileName: Proffy
+    modified: 1596548527647
+    parentId: wrk_a06dd66f6784402f9d98a2e302c328dc
+    _type: api_spec
