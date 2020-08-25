@@ -46,7 +46,7 @@
   <main>
     <section id="objectives">
       <h3>Objectives</h3>
-      <p>Lorem</p>
+      <p>This project is intended to connect teachers and students digitally.</p>
     </section>
     <br/><hr/><br/>
     <section>
